@@ -37,7 +37,7 @@
     <section class="page-hero">
       <div class="container">
         <h1 class="page-title">Initiate a Project Brief.</h1>
-        <p class="lead" style="margin-top:20px">Share your visual requirements, target commercial platforms, and deadline. We review every brief and return a confirmed scope and quote within 24 hours.</p>
+        <p class="lead" style="margin-top:20px">Share your visual requirements, target commercial platforms, and deadline. If the project is a fit, the studio usually responds within one business day with a proposed scope and starting estimate.</p>
       </div>
     </section>
 
@@ -57,7 +57,7 @@
             <ul class="tier-features" style="margin-top:12px">
               <li>Commercial use (Game key art, cover, luxury ad)</li>
               <li>Reference images or visual tone</li>
-              <li>Target resolution (4K standard, 8K master, ultra-scale)</li>
+              <li>Target resolution (4K standard; 8K and 16K subject to feasibility review)</li>
               <li>Required crop ratios (16:9, 9:16, 1:1)</li>
               <li>Target delivery date & budget range</li>
             </ul>
@@ -94,10 +94,10 @@
               <div class="form-group">
                 <label for="targetResolution">Master Resolution Tier</label>
                 <select id="targetResolution" name="resolution">
-                  <option value="4K Master">4K Master (Digital & Web Hero)</option>
-                  <option value="8K Master" selected>8K Master (Standard Commercial / Print)</option>
-                  <option value="16K Ultra-Scale">16K Ultra-Scale (Exhibition / Billboard)</option>
-                  <option value="Undecided">Recommend best fit for project</option>
+                  <option value="4K standard delivery" selected>4K standard delivery (digital, web, and approved print)</option>
+                  <option value="8K feasibility review">8K delivery request (quoted after feasibility review)</option>
+                  <option value="16K custom feasibility review">16K delivery request (custom feasibility review)</option>
+                  <option value="Undecided">Recommend the best fit for the project</option>
                 </select>
               </div>
             </div>
@@ -112,8 +112,13 @@
               <textarea id="projectBrief" name="brief" rows="4" placeholder="Describe the intended use, visual atmosphere, deliverables count, and target deadline." required></textarea>
             </div>
 
+            <div class="form-consent">
+              <input id="privacyConsent" name="privacyConsent" type="checkbox" required>
+              <label for="privacyConsent">I agree that Vexnaire may send my project-brief details to FormSubmit to deliver this inquiry. I have read the <a href="/privacy">Privacy page</a>.</label>
+            </div>
+
             <!-- Anti-bot honeypot field -->
-            <input type="text" name="_honey" style="display:none">
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
 
             <div id="formStatus" class="form-status" style="display:none;" role="alert"></div>
 
@@ -121,7 +126,7 @@
               <button id="submitBtn" class="btn btn-primary" type="submit">Submit Project Brief →</button>
               <a class="btn btn-secondary" href="mailto:vivekvala562@gmail.com?subject=Vexnaire%20Visual%20Studio%20Inquiry">Email Directly</a>
             </div>
-            <small class="form-privacy">Direct studio transmission. Your brief is delivered straight to studio director Vivek Vala for immediate scope review.</small>
+            <small class="form-privacy">With your consent, FormSubmit forwards your brief to Vexnaire. The studio uses it only to assess and respond to your inquiry.</small>
           </form>
         </div>
       </div>
@@ -136,7 +141,7 @@
           <div class="process-step">
             <span class="step">01</span>
             <h3>Brief Review</h3>
-            <p>We review your brief, technical requirements, and reference direction within 24 hours.</p>
+            <p>The studio reviews the brief, technical requirements, and reference direction, then confirms whether it can take the project on.</p>
           </div>
           <div class="process-step">
             <span class="step">02</span>
@@ -150,8 +155,8 @@
           </div>
           <div class="process-step">
             <span class="step">04</span>
-            <h3>Master Delivery</h3>
-            <p>Approved artwork is delivered in verified 4K or 8K archives after full optical QA inspection.</p>
+            <h3>Final delivery</h3>
+            <p>Approved artwork is delivered at the resolution, file format, crop ratios, and usage rights confirmed in the written scope.</p>
           </div>
         </div>
       </div>

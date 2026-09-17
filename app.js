@@ -186,10 +186,11 @@ async function handleBriefSubmit(event) {
   const resolutionEl = document.getElementById('targetResolution');
   const referenceEl = document.getElementById('referenceStyle');
   const briefEl = document.getElementById('projectBrief');
+  const consentEl = document.getElementById('privacyConsent');
   const submitBtn = document.getElementById('submitBtn');
   const statusEl = document.getElementById('formStatus');
 
-  if (!nameEl || !emailEl || !projectTypeEl || !resolutionEl || !briefEl) return;
+  if (!nameEl || !emailEl || !projectTypeEl || !resolutionEl || !briefEl || !consentEl) return;
 
   const name = nameEl.value.trim();
   const email = emailEl.value.trim();
@@ -198,24 +199,31 @@ async function handleBriefSubmit(event) {
   const reference = referenceEl ? referenceEl.value.trim() : '';
   const brief = briefEl.value.trim();
 
-  if (!name || !email || !brief) {
-    if (statusEl) {
-      statusEl.className = 'form-status error';
-      statusEl.style.display = 'block';
-      statusEl.textContent = 'Please fill in your name, work email, and project brief.';
-    }
+  const showError = (message) => {
+    if (!statusEl) return;
+    statusEl.className = 'form-status error';
+    statusEl.style.display = 'block';
+    statusEl.textContent = message;
+  };
+
+  if (!name || !email || !emailEl.checkValidity() || !brief) {
+    showError('Please fill in a valid name, work email, and project brief.');
+    return;
+  }
+  if (!consentEl.checked) {
+    showError('Please confirm that you agree to FormSubmit processing this inquiry before submitting.');
+    consentEl.focus();
     return;
   }
 
-  // Set loading state
   if (submitBtn) {
     submitBtn.disabled = true;
-    submitBtn.textContent = 'Transmitting Brief...';
+    submitBtn.textContent = 'Sending Brief…';
   }
   if (statusEl) {
     statusEl.className = 'form-status loading';
     statusEl.style.display = 'block';
-    statusEl.textContent = 'Sending your brief directly to studio director Vivek Vala...';
+    statusEl.textContent = 'Sending your brief through FormSubmit to Vexnaire…';
   }
 
   const payload = {
@@ -225,7 +233,8 @@ async function handleBriefSubmit(event) {
     resolution,
     reference: reference || 'Open to recommendation',
     brief,
-    _subject: `Vexnaire Project Brief: ${projectType} — ${name}`
+    privacy_consent: 'Confirmed via project brief form',
+    _subject: 'Vexnaire Project Brief: ' + projectType + ' — ' + name
   };
 
   try {
@@ -238,27 +247,29 @@ async function handleBriefSubmit(event) {
       body: JSON.stringify(payload)
     });
 
-    const result = await response.json();
-
-    if (response.ok && (result.success === 'true' || result.success === true)) {
-      if (statusEl) {
-        statusEl.className = 'form-status success';
-        statusEl.innerHTML = `<strong>✓ Project Brief Transmitted Successfully.</strong><br>Thank you, ${name}. Your brief has been sent directly to studio director Vivek Vala. We will review your requirements and reply with a confirmed scope, delivery timeline, and quote within 24 hours.`;
-      }
-      document.getElementById('briefForm').reset();
-      if (submitBtn) {
-        submitBtn.disabled = false;
-        submitBtn.textContent = 'Brief Sent ✓';
-      }
-    } else {
+    let result = {};
+    try { result = await response.json(); } catch (_) {}
+    if (!response.ok || (result.success !== 'true' && result.success !== true)) {
       throw new Error(result.message || 'Submission failed');
     }
+
+    if (statusEl) {
+      statusEl.className = 'form-status success';
+      statusEl.style.display = 'block';
+      statusEl.textContent = 'Thanks, ' + name + '. FormSubmit accepted your project brief and forwarded it to Vexnaire. The studio will review it and respond if it can take the project on.';
+    }
+    document.getElementById('briefForm').reset();
+    if (submitBtn) {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Brief Sent ✓';
+    }
   } catch (err) {
-    console.warn('Direct submission error, falling back to mailto:', err);
+    console.warn('FormSubmit request failed; offering mailto fallback:', err);
     if (statusEl) {
       statusEl.className = 'form-status error';
-      const mailtoUrl = `mailto:vivekvala562@gmail.com?subject=${encodeURIComponent(`Vexnaire Project Inquiry | ${projectType} | ${name}`)}&body=${encodeURIComponent(`Hello Vexnaire Studio,\n\nName: ${name}\nEmail: ${email}\nDiscipline: ${projectType}\nResolution: ${resolution}\nReference: ${reference}\n\nBrief:\n${brief}`)}`;
-      statusEl.innerHTML = `Direct transmission encountered a network issue. <a href="${mailtoUrl}" style="color:var(--gold-2);text-decoration:underline;font-weight:600;">Click here to send immediately via your email client →</a>`;
+      statusEl.style.display = 'block';
+      const mailtoUrl = 'mailto:vivekvala562@gmail.com?subject=' + encodeURIComponent('Vexnaire Project Inquiry | ' + projectType + ' | ' + name) + '&body=' + encodeURIComponent('Hello Vexnaire Studio,\n\nName: ' + name + '\nEmail: ' + email + '\nDiscipline: ' + projectType + '\nResolution: ' + resolution + '\nReference: ' + reference + '\n\nBrief:\n' + brief);
+      statusEl.innerHTML = 'We could not send the form through FormSubmit. <a href="' + mailtoUrl + '" style="color:var(--gold-2);text-decoration:underline;font-weight:600;">Open your email client to send this brief instead →</a>';
     }
     if (submitBtn) {
       submitBtn.disabled = false;

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+:root {
+  --vexnaire-obsidian: #0A0A0A;
+  --vexnaire-ivory: #F4F0E8;
+  --vexnaire-stone: #B9B2A7;
+  --vexnaire-violet: #C9A6FF;
+
+  --vexnaire-bg: var(--vexnaire-obsidian);
+  --vexnaire-text: var(--vexnaire-ivory);
+  --vexnaire-muted: var(--vexnaire-stone);
+  --vexnaire-accent: var(--vexnaire-violet);
+
+  --vexnaire-display: "Playfair Display", Georgia, serif;
+  --vexnaire-heading: "Manrope", Arial, sans-serif;
+  --vexnaire-body: "DM Sans", Arial, sans-serif;
+}
+
+.vexnaire-wordmark {
+  font-family: var(--vexnaire-heading);
+  text-transform: uppercase;
+  letter-spacing: .24em;
+  font-weight: 500;
+}
+
+.vexnaire-descriptor {
+  font-family: var(--vexnaire-heading);
+  text-transform: uppercase;
+  letter-spacing: .32em;
+  font-weight: 500;
+  color: var(--vexnaire-muted);
+}
+
+.vexnaire-accent {
+  color: var(--vexnaire-accent);
+}

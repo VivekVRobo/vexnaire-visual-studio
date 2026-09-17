@@ -1,0 +1,34 @@
+{
+  "Logo/vexnaire-flat-symbol-ivory-on-black-reference.png": {
+    "sha256": "d00334a56ab48293651707964622dcc4696e9c6d95ef2367bddb27823d08d1fb",
+    "status": "approved exact reference image"
+  },
+  "App_Icons/vexnaire-app-icon-dark-approved.png": {
+    "sha256": "c7b402161d4d354f84a7c51485c3fda32d0bf162d53dbed28770ab5d3a3bbf95",
+    "status": "approved exact reference image"
+  },
+  "App_Icons/vexnaire-app-icon-light-approved.png": {
+    "sha256": "7e0205d65d6ea74e5c623b2b00fa8b896ff726518726c1d18e76eb8d4b3766de",
+    "status": "approved exact reference image"
+  },
+  "App_Icons/vexnaire-app-icon-violet-approved.png": {
+    "sha256": "7873fd10509835f43371286bed16dac09ee2fb5f3243076282ed043da0e3a595",
+    "status": "approved exact reference image"
+  },
+  "Banner/vexnaire-banner-approved.png": {
+    "sha256": "a1ab0b7d3f9379d596dd07c4bcf0e5c1a11f135c4247b3f815788e7bed46569e",
+    "status": "approved exact reference image"
+  },
+  "Identity_Boards/vexnaire-wordmark-identity-board-approved.png": {
+    "sha256": "f69a9cd5ee0c8aac159b96c89857c06c041e502da0baec01bfe6c3e53988a627",
+    "status": "approved exact reference image"
+  },
+  "Identity_Boards/vexnaire-brand-system-board-approved.png": {
+    "sha256": "ee50eda449b51325bdabd382aa9e4e9bdaaf1400fa4c0f51a3527b369319ff0f",
+    "status": "approved exact reference image"
+  },
+  "Logo/vexnaire-premium-master-approved.png": {
+    "sha256": "2c9e2b5e57c7b0a0a4d8d864e232515de9e8fe965af463f3f28f4d49e7fb9632",
+    "status": "approved exact reference image"
+  }
+}
