@@ -79,7 +79,7 @@ Production target: https://vexnaire.studio
 
 ## Commercial policy
 
-Every commission receives a written scope before production. It records the final delivery resolution, formats, crop ratios, commercial-use rights, revision count, price, and target date. A single key-art visual is typically planned for 3–5 business days and a three-visual set for 7–10 business days after the scope is confirmed. These are planning estimates, not guaranteed delivery dates.
+Every commission receives a written scope before production. It records the final delivery resolution, formats, crop ratios, commercial-use rights, revision count, price, and target date. A Signature Key Visual is generally planned for 5–7 business days and a Three-Visual Campaign Set for approximately 7–12 business days after the scope is confirmed. These are planning estimates, not guaranteed delivery dates.
 
 ## Contact
 
