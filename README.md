@@ -1,6 +1,6 @@
 # Vexnaire Visual Studio
 
-A standalone multi-page website for Vexnaire Visual Studio, an independent visual-art service operated by Vivek Vala.
+A standalone multi-page website for Vexnaire Visual Studio, an independent visual design studio led by Vivek Vala. The commercial front door is advanced technology, mobility and premium product imagery, with broader capability across entertainment, architecture, publishing and other visual disciplines.
 
 ## Current capability
 
