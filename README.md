@@ -85,4 +85,4 @@ Every commission receives a written scope before production. It records the fina
 
 Vivek Vala
 
-vivekvala562@gmail.com
+hello@vexnaire.studio

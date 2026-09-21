@@ -268,7 +268,7 @@ async function handleBriefSubmit(event) {
     if (statusEl) {
       statusEl.className = 'form-status error';
       statusEl.style.display = 'block';
-      const mailtoUrl = 'mailto:vivekvala562@gmail.com?subject=' + encodeURIComponent('Vexnaire Project Inquiry | ' + projectType + ' | ' + name) + '&body=' + encodeURIComponent('Hello Vexnaire Studio,\n\nName: ' + name + '\nEmail: ' + email + '\nDiscipline: ' + projectType + '\nResolution: ' + resolution + '\nReference: ' + reference + '\n\nBrief:\n' + brief);
+      const mailtoUrl = 'mailto:hello@vexnaire.studio?subject=' + encodeURIComponent('Vexnaire Project Inquiry | ' + projectType + ' | ' + name) + '&body=' + encodeURIComponent('Hello Vexnaire Studio,\n\nName: ' + name + '\nEmail: ' + email + '\nDiscipline: ' + projectType + '\nResolution: ' + resolution + '\nReference: ' + reference + '\n\nBrief:\n' + brief);
       statusEl.innerHTML = 'We could not send the form through FormSubmit. <a href="' + mailtoUrl + '" style="color:var(--gold-2);text-decoration:underline;font-weight:600;">Open your email client to send this brief instead →</a>';
     }
     if (submitBtn) {
