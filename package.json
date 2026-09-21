@@ -1,0 +1,21 @@
+{
+  "name": "vexnaire-visual-studio",
+  "version": "1.0.0",
+  "description": "Vexnaire Visual Studio - Cinematic key art and luxury product imagery",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": [
+    "vexnaire",
+    "visual-studio",
+    "design"
+  ],
+  "author": "Vexnaire",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
