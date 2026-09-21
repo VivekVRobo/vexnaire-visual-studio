@@ -3,15 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Vexnaire Visual Studio | Commercial Visual Direction & Master Production</title>
-  <meta name="description" content="Vexnaire Visual Studio crafts high-impact digital imagery and commercial key art for entertainment, games, publishing, and prestige brands.">
+  <title>Vexnaire Visual Studio | Key Art, Product & Brand Visuals</title>
+  <meta name="description" content="Vexnaire creates cinematic key art, luxury product imagery, brand visuals and commercial stills for game studios, creative teams and premium brands.">
   <link rel="canonical" href="https://vexnaire.studio/">
-  <meta property="og:title" content="Vexnaire Visual Studio | Commercial Visual Direction & Master Production">
-  <meta property="og:description" content="Custom visual artwork for games, creators, music, publishing, and brands. Delivery resolution is confirmed per project.">
-  <meta property="og:image" content="https://vexnaire.studio/assets/03_astral_guardian_portrait__WEB_1080P.jpg">
+  <meta name="theme-color" content="#0A0A0A">
+  <meta property="og:title" content="Vexnaire Visual Studio | Ideas to Worlds">
+  <meta property="og:description" content="Cinematic key art, luxury product imagery and campaign-ready visual design for game studios, creative teams and premium brands.">
+  <meta property="og:image" content="https://vexnaire.studio/Vexnaire_Brand_Pack_v1.1/07_APPROVED_REFERENCE_IMAGES/Banner/vexnaire-banner-approved.png">
+  <meta property="og:image:alt" content="Vexnaire Visual Studio — Ideas to Worlds">
   <meta property="og:url" content="https://vexnaire.studio/">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vexnaire Visual Studio">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vexnaire Visual Studio | Ideas to Worlds">
+  <meta name="twitter:description" content="Cinematic key art, luxury product imagery and campaign-ready visual design.">
+  <meta name="twitter:image" content="https://vexnaire.studio/Vexnaire_Brand_Pack_v1.1/07_APPROVED_REFERENCE_IMAGES/Banner/vexnaire-banner-approved.png">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/assets/favicon.ico" sizes="any">
   <link rel="manifest" href="/site.webmanifest">
@@ -20,12 +26,31 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Vexnaire Visual Studio",
-    "url": "https://vexnaire.studio",
-    "description": "Commercial visual direction and key art across commercial disciplines, with delivery resolution confirmed per project.",
-    "email": "vivekvala562@gmail.com",
-    "areaServed": "Worldwide"
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://vexnaire.studio/#organization",
+        "name": "Vexnaire Visual Studio",
+        "alternateName": "Vexnaire",
+        "url": "https://vexnaire.studio/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://vexnaire.studio/assets/vexnaire-symbol.svg"
+        },
+        "description": "A visual design studio creating cinematic key art, luxury product imagery, brand visuals and commercial stills for clients worldwide.",
+        "email": "vivekvala562@gmail.com",
+        "areaServed": "Worldwide"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://vexnaire.studio/#website",
+        "url": "https://vexnaire.studio/",
+        "name": "Vexnaire Visual Studio",
+        "publisher": {
+          "@id": "https://vexnaire.studio/#organization"
+        }
+      }
+    ]
   }
   </script>
 </head>
@@ -56,8 +81,9 @@
       <div class="container hero-grid">
         <div class="hero-copy reveal">
           
-          <h1 class="display">Architects of the Unseen.</h1>
-          <p class="lead">Vexnaire is a specialized commercial visual production studio crafting high-impact digital imagery, key art, and campaign-ready stills for entertainment directors, game studios, publishing houses, and luxury brands worldwide. Final resolution, file formats, and usage rights are confirmed in each written project scope.</p>
+          <span class="eyebrow">Vexnaire Visual Studio</span>
+          <h1 class="display">Ideas to Worlds.</h1>
+          <p class="lead">Cinematic key art, luxury product imagery and campaign-ready visual design for game studios, creative teams and premium brands. Your vision, elevated — not replaced.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="/contact">Initiate Project Brief →</a>
             <a class="btn btn-secondary" href="/work">Explore Portfolio</a>
@@ -83,7 +109,7 @@
           <div class="hero-stage-wrapper">
             <!-- Primary Hero Card -->
             <div class="hero-stage-card primary" onclick="openLightbox('assets/hypercar_stealth_coastal_sunset.jpg', 'VEXNAIRE CHIMERA HYPERCAR', 'Automotive & Aerodynamic Engineering', 'Vexnaire Chimera (Automotive Hypercar)')">
-              <img src="assets/hypercar_stealth_coastal_sunset.jpg" alt="Vexnaire Chimera Hypercar at Coastal Sunset">
+              <img src="assets/hypercar_stealth_coastal_sunset.jpg" alt="Vexnaire Chimera Hypercar at Coastal Sunset" fetchpriority="high" decoding="async">
               <div class="hero-stage-overlay">
                 <span class="hero-stage-tag">Automotive Hypercars</span>
                 <span class="hero-stage-title">Vexnaire Chimera — Coastal Sunset</span>
@@ -91,7 +117,7 @@
             </div>
             <!-- Secondary Card 1 -->
             <div class="hero-stage-card" onclick="openLightbox('assets/prod_golden_serum_dropper_lake.jpg', 'CELLULAR YOUTH SERUM', 'Prestige Clinical Skincare', 'Cellular Youth Serum (Skincare)')">
-              <img src="assets/prod_golden_serum_dropper_lake.jpg" alt="Cellular Youth Serum by Alpine Lake">
+              <img src="assets/prod_golden_serum_dropper_lake.jpg" alt="Cellular Youth Serum by Alpine Lake" decoding="async">
               <div class="hero-stage-overlay">
                 <span class="hero-stage-tag">Prestige Skincare</span>
                 <span class="hero-stage-title">Cellular Youth Serum</span>
@@ -99,7 +125,7 @@
             </div>
             <!-- Secondary Card 2 -->
             <div class="hero-stage-card" onclick="openLightbox('assets/samurai_blood_moon_warrior_katana.jpg', 'BLOOD MOON DUELIST', 'Samurai & Feudal Japanese Epics', 'Blood Moon Duelist (Samurai Cinema)')">
-              <img src="assets/samurai_blood_moon_warrior_katana.jpg" alt="Blood Moon Duelist Samurai Artwork">
+              <img src="assets/samurai_blood_moon_warrior_katana.jpg" alt="Blood Moon Duelist Samurai Artwork" decoding="async">
               <div class="hero-stage-overlay">
                 <span class="hero-stage-tag">Feudal Japan Cinema</span>
                 <span class="hero-stage-title">Blood Moon Duelist</span>
@@ -164,7 +190,7 @@
           <!-- 1. Architecture: Amalfi Cliffside Villa -->
           <article class="showcase-card" data-sample="1" data-category="architecture">
             <div class="card-media" onclick="openLightbox('assets/arch_mediterranean_cliff_villa.jpg', 'AMALFI CLIFFSIDE VILLA', 'Luxury Architecture & Coastal Estates', 'Amalfi Cliffside Villa (Luxury Architecture)')">
-              <img src="assets/arch_mediterranean_cliff_villa.jpg" alt="Amalfi Cliffside Villa" loading="lazy">
+              <img src="assets/arch_mediterranean_cliff_villa.jpg" alt="Amalfi Cliffside Villa" loading="lazy" decoding="async">
               <div class="card-overlay"><span class="zoom-indicator">Click to inspect ⤢</span></div>
               <span class="res-tag">Portfolio Preview</span>
             </div>
@@ -191,7 +217,7 @@
           <!-- 2. Architecture: Manhattan Sunset Penthouse -->
           <article class="showcase-card" data-sample="2" data-category="architecture">
             <div class="card-media" onclick="openLightbox('assets/arch_manhattan_penthouse_sunset.jpg', 'MANHATTAN SUNSET PENTHOUSE', 'High-Rise Penthouses & Skyline Living', 'Manhattan Sunset Penthouse (Interior Design)')">
-              <img src="assets/arch_manhattan_penthouse_sunset.jpg" alt="Manhattan Sunset Penthouse" loading="lazy">
+              <img src="assets/arch_manhattan_penthouse_sunset.jpg" alt="Manhattan Sunset Penthouse" loading="lazy" decoding="async">
               <div class="card-overlay"><span class="zoom-indicator">Click to inspect ⤢</span></div>
               <span class="res-tag">Portfolio Preview</span>
             </div>
@@ -218,7 +244,7 @@
           <!-- 3. Cuisine: A5 Wagyu Strip Steak -->
           <article class="showcase-card" data-sample="3" data-category="cuisine">
             <div class="card-media" onclick="openLightbox('assets/cuisine_wagyu_strip_steak.jpg', 'A5 WAGYU & CHARRED MORELS', 'Michelin-Starred Fine Dining Gastronomy', 'A5 Wagyu & Charred Morels (Fine Dining)')">
-              <img src="assets/cuisine_wagyu_strip_steak.jpg" alt="A5 Wagyu Strip Steak with Charred Morels" loading="lazy">
+              <img src="assets/cuisine_wagyu_strip_steak.jpg" alt="A5 Wagyu Strip Steak with Charred Morels" loading="lazy" decoding="async">
               <div class="card-overlay"><span class="zoom-indicator">Click to inspect ⤢</span></div>
               <span class="res-tag">Portfolio Preview</span>
             </div>
@@ -245,7 +271,7 @@
           <!-- 4. Cuisine: Ruby Mirror Glaze Dome -->
           <article class="showcase-card" data-sample="4" data-category="cuisine">
             <div class="card-media" onclick="openLightbox('assets/cuisine_ruby_mirror_glaze_dome.jpg', 'RUBY MIRROR GLAZE DOME', 'Haute Pâtisserie & Confectionery Art', 'Ruby Mirror Glaze Dome (Haute Patisserie)')">
-              <img src="assets/cuisine_ruby_mirror_glaze_dome.jpg" alt="Ruby Mirror Glaze Dome Patisserie" loading="lazy">
+              <img src="assets/cuisine_ruby_mirror_glaze_dome.jpg" alt="Ruby Mirror Glaze Dome Patisserie" loading="lazy" decoding="async">
               <div class="card-overlay"><span class="zoom-indicator">Click to inspect ⤢</span></div>
               <span class="res-tag">Portfolio Preview</span>
             </div>
@@ -272,7 +298,7 @@
           <!-- 5. Beverage: Amalfi Lemon Soda -->
           <article class="showcase-card" data-sample="5" data-category="beverage">
             <div class="card-media" onclick="openLightbox('assets/bev_amalfi_lemon_soda_splash.jpg', 'AMALFI CITRUS SODA', 'Artisanal Botanical Beverages & Cocktails', 'Amalfi Citrus Soda (Botanical Beverage)')">
-              <img src="assets/bev_amalfi_lemon_soda_splash.jpg" alt="Amalfi Citrus Soda Splash" loading="lazy">
+              <img src="assets/bev_amalfi_lemon_soda_splash.jpg" alt="Amalfi Citrus Soda Splash" loading="lazy" decoding="async">
               <div class="card-overlay"><span class="zoom-indicator">Click to inspect ⤢</span></div>
               <span class="res-tag">Portfolio Preview</span>
             </div>
@@ -299,7 +325,7 @@
           <!-- 6. Skincare: Cellular Youth Serum -->
           <article class="showcase-card" data-sample="6" data-category="product">
             <div class="card-media" onclick="openLightbox('assets/prod_golden_serum_dropper_lake.jpg', 'CELLULAR YOUTH SERUM', 'Prestige Clinical Skincare', 'Cellular Youth Serum (Skincare)')">
-              <img src="assets/prod_golden_serum_dropper_lake.jpg" alt="Cellular Youth Serum by Alpine Lake" loading="lazy">
+              <img src="assets/prod_golden_serum_dropper_lake.jpg" alt="Cellular Youth Serum by Alpine Lake" loading="lazy" decoding="async">
               <div class="card-overlay"><span class="zoom-indicator">Click to inspect ⤢</span></div>
               <span class="res-tag">Portfolio Preview</span>
             </div>
@@ -326,7 +352,7 @@
           <!-- 7. Luxury Perfume: L'Ombre Doree Parfum -->
           <article class="showcase-card" data-sample="7" data-category="product">
             <div class="card-media" onclick="openLightbox('assets/prod_sculptural_parfum_valley_sunset.jpg', 'L'OMBRE DORÉE PARFUM', 'High-Luxury Fragrance & Sculptural Flacons', 'L'Ombre Doree Parfum (Haute Fragrance)')">
-              <img src="assets/prod_sculptural_parfum_valley_sunset.jpg" alt="L'Ombre Doree Luxury Perfume" loading="lazy">
+              <img src="assets/prod_sculptural_parfum_valley_sunset.jpg" alt="L'Ombre Doree Luxury Perfume" loading="lazy" decoding="async">
               <div class="card-overlay"><span class="zoom-indicator">Click to inspect ⤢</span></div>
               <span class="res-tag">Portfolio Preview</span>
             </div>
@@ -353,7 +379,7 @@
           <!-- 8. Fashion: Lunar Haute Couture -->
           <article class="showcase-card" data-sample="8" data-category="fashion">
             <div class="card-media" onclick="openLightbox('assets/fashion_avant_garde_lunar_couture.jpg', 'LUNAR HAUTE COUTURE', 'Avant-Garde Fashion & Sculptural Silhouettes', 'Lunar Haute Couture (Avant-Garde Fashion)')">
-              <img src="assets/fashion_avant_garde_lunar_couture.jpg" alt="Lunar Haute Couture Editorial" loading="lazy">
+              <img src="assets/fashion_avant_garde_lunar_couture.jpg" alt="Lunar Haute Couture Editorial" loading="lazy" decoding="async">
               <div class="card-overlay"><span class="zoom-indicator">Click to inspect ⤢</span></div>
               <span class="res-tag">Portfolio Preview</span>
             </div>
@@ -380,7 +406,7 @@
           <!-- 9. Samurai: Blood Moon Duelist -->
           <article class="showcase-card" data-sample="9" data-category="samurai">
             <div class="card-media" onclick="openLightbox('assets/samurai_blood_moon_warrior_katana.jpg', 'BLOOD MOON DUELIST', 'Samurai & Feudal Japanese Epics', 'Blood Moon Duelist (Samurai Cinema)')">
-              <img src="assets/samurai_blood_moon_warrior_katana.jpg" alt="Blood Moon Duelist Samurai" loading="lazy">
+              <img src="assets/samurai_blood_moon_warrior_katana.jpg" alt="Blood Moon Duelist Samurai" loading="lazy" decoding="async">
               <div class="card-overlay"><span class="zoom-indicator">Click to inspect ⤢</span></div>
               <span class="res-tag">Portfolio Preview</span>
             </div>
@@ -407,7 +433,7 @@
           <!-- 10. Samurai: Snowbound Ronin -->
           <article class="showcase-card" data-sample="10" data-category="samurai">
             <div class="card-media" onclick="openLightbox('assets/samurai_ronin_snowstorm_portrait.jpg', 'THE SNOWBOUND RONIN', 'Samurai Cinema & Character Portraits', 'The Snowbound Ronin (Character Portrait)')">
-              <img src="assets/samurai_ronin_snowstorm_portrait.jpg" alt="The Snowbound Ronin in Snowstorm" loading="lazy">
+              <img src="assets/samurai_ronin_snowstorm_portrait.jpg" alt="The Snowbound Ronin in Snowstorm" loading="lazy" decoding="async">
               <div class="card-overlay"><span class="zoom-indicator">Click to inspect ⤢</span></div>
               <span class="res-tag">Portfolio Preview</span>
             </div>
@@ -434,7 +460,7 @@
           <!-- 11. Sci-Fi: Orbital Gateway Olympus -->
           <article class="showcase-card" data-sample="11" data-category="scifi">
             <div class="card-media" onclick="openLightbox('assets/scifi_orbital_wheel_habitat_astronaut.jpg', 'ORBITAL GATEWAY OLYMPUS', 'Hard Sci-Fi & Deep Space Habitats', 'Orbital Gateway Olympus (Hard Sci-Fi)')">
-              <img src="assets/scifi_orbital_wheel_habitat_astronaut.jpg" alt="Orbital Gateway Olympus Space Habitat" loading="lazy">
+              <img src="assets/scifi_orbital_wheel_habitat_astronaut.jpg" alt="Orbital Gateway Olympus Space Habitat" loading="lazy" decoding="async">
               <div class="card-overlay"><span class="zoom-indicator">Click to inspect ⤢</span></div>
               <span class="res-tag">Portfolio Preview</span>
             </div>
@@ -461,7 +487,7 @@
           <!-- 12. Hypercar: Vexnaire Chimera -->
           <article class="showcase-card" data-sample="12" data-category="hypercars">
             <div class="card-media" onclick="openLightbox('assets/hypercar_stealth_coastal_sunset.jpg', 'VEXNAIRE CHIMERA HYPERCAR', 'Automotive & Aerodynamic Engineering', 'Vexnaire Chimera (Automotive Hypercar)')">
-              <img src="assets/hypercar_stealth_coastal_sunset.jpg" alt="Vexnaire Chimera Hypercar" loading="lazy">
+              <img src="assets/hypercar_stealth_coastal_sunset.jpg" alt="Vexnaire Chimera Hypercar" loading="lazy" decoding="async">
               <div class="card-overlay"><span class="zoom-indicator">Click to inspect ⤢</span></div>
               <span class="res-tag">Portfolio Preview</span>
             </div>
