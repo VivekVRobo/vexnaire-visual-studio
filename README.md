@@ -75,7 +75,7 @@ A generic static server can still display individual HTML files, but clean paths
 
 Designed for Vercel static deployment with clean URLs and basic security and cache headers.
 
-Production target: https://vexnaire-visual-studio.vercel.app
+Production target: https://vexnaire.studio
 
 ## Commercial policy
 

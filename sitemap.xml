@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Core Studio Pages -->
-  <url><loc>https://vexnaire-visual-studio.vercel.app/</loc><lastmod>2026-09-13</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/work</loc><lastmod>2026-09-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/services</loc><lastmod>2026-09-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/process</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/pricing</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/about</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/contact</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/terms</loc><lastmod>2026-09-13</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/privacy</loc><lastmod>2026-09-13</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://vexnaire.studio/</loc><lastmod>2026-09-13</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://vexnaire.studio/work</loc><lastmod>2026-09-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://vexnaire.studio/services</loc><lastmod>2026-09-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://vexnaire.studio/process</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vexnaire.studio/pricing</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://vexnaire.studio/about</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vexnaire.studio/contact</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://vexnaire.studio/terms</loc><lastmod>2026-09-13</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://vexnaire.studio/privacy</loc><lastmod>2026-09-13</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
 
   <!-- Commercial Discipline Services -->
-  <url><loc>https://vexnaire-visual-studio.vercel.app/services/custom-game-concept-art</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/services/architectural-spatial-visualization</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/services/luxury-product-stills</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/services/cyberpunk-concept-art</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/services/automotive-concept-mobility</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/services/fantasy-book-cover-art</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/services/high-resolution-brand-visuals</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/services/custom-youtube-artwork</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/services/custom-8k-artwork</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://vexnaire.studio/services/custom-game-concept-art</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://vexnaire.studio/services/architectural-spatial-visualization</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://vexnaire.studio/services/luxury-product-stills</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://vexnaire.studio/services/cyberpunk-concept-art</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://vexnaire.studio/services/automotive-concept-mobility</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://vexnaire.studio/services/fantasy-book-cover-art</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://vexnaire.studio/services/high-resolution-brand-visuals</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://vexnaire.studio/services/custom-youtube-artwork</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://vexnaire.studio/services/custom-8k-artwork</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
 
   <!-- Showcase Artwork Details (12 Commercial Case Pages) -->
-  <url><loc>https://vexnaire-visual-studio.vercel.app/art/blood-moon-duelist</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/art/orbital-wheel-habitat</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/art/chimera-hypercar</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/art/amalfi-cliffside-villa</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/art/cellular-youth-serum</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/art/tuscan-morning-espresso</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/art/neo-kyoto-2099</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/art/vedic-citadel</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/art/astral-guardian</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/art/cyber-ronin</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/art/alpine-villa</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
-  <url><loc>https://vexnaire-visual-studio.vercel.app/art/quantum-chronometer</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://vexnaire.studio/art/blood-moon-duelist</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://vexnaire.studio/art/orbital-wheel-habitat</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://vexnaire.studio/art/chimera-hypercar</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://vexnaire.studio/art/amalfi-cliffside-villa</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://vexnaire.studio/art/cellular-youth-serum</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://vexnaire.studio/art/tuscan-morning-espresso</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://vexnaire.studio/art/neo-kyoto-2099</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://vexnaire.studio/art/vedic-citadel</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://vexnaire.studio/art/astral-guardian</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://vexnaire.studio/art/cyber-ronin</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://vexnaire.studio/art/alpine-villa</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://vexnaire.studio/art/quantum-chronometer</loc><lastmod>2026-09-13</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
 </urlset>
